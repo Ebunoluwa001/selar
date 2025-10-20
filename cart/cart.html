@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/x-icon" href="/images/fav.ico">
+  <link rel="stylesheet" href="cart.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <title>🛒Your Cart</title>
+</head>
+<body>
+
+    <nav>
+        <img src="selar-logo-small.png" alt="" id="selar-logo-small">
+       <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/product/product.html">Product</a></li>
+        <li><a href="/preview/preview.html">Preview</a></li>
+        <li><a href="/Log in/log.html">Log in</a></li>
+        <li><a href="/sign up/sign.html">Sign up</a></li>
+        <li> <a href="/cart/cart.html"><i class="fa-solid fa-cart-plus"></i></a></li>
+       </ul>
+      </nav>
+      <header>
+        <h1>Your Cart</h1>
+      </header>
+    
+      <main class="cart-container">
+        <div class="cart-items" id="cart-items">
+          <!-- JS will load cart items here -->
+        </div>
+    
+        <div class="cart-summary">
+          <h2>Summary</h2>
+          <p>Total: <span id="cart-total">₦0</span></p>
+          <button id="checkout-btn">Checkout</button>
+        </div>
+      </main>
+
+ <script src="cart.js"></script>
+</body>
+</html> 

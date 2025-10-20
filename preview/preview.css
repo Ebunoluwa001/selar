@@ -1,0 +1,103 @@
+#selar-logo-small{
+    width:70px;
+  }
+  nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: bold;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  input[type="file"], input[type="text"] {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .thumb {
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .thumb:hover {
+    border: 2px solid purple;
+  }
+
+  body {
+    font-family: Georgia, serif;
+    background: #fff;
+    color: #222;
+    padding: 40px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .preview {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+  
+  .text {
+    flex: 2;
+  }
+  
+  .text h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  
+  .author {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .summary {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .image {
+    flex: 1;
+  }
+  
+  .image img {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    border-radius: 4px;
+  }
+  
+  .form {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .form input,
+  .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: inherit;
+  }

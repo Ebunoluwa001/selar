@@ -1,0 +1,106 @@
+.sec{
+    text-align: center;
+    color: black;
+  }
+  
+  #cut{
+    filter: brightness(0) invert(1);
+  }
+  
+  #selar-logo-small{
+    width:70px;
+  }
+  nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: bold;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  #novel-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  #novel-list div {
+    width: 230px;
+    /* height: 330px; */
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  #novel-list div:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: purple;
+  }
+  button {
+    background-color: #6a0dad; /* Purple */
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4b0082; /* Darker purple */
+  }
+  h1{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+  }
+  /* style.css */
+.product-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.product-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+button, .preview-btn {
+  padding: 8px 12px;
+  background-color: purple;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+  
+
+

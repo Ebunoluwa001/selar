@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="/images/fav.ico">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Product page</title>
+</head>
+<body>
+        <nav>
+            <img src="pics/selar-logo-small.png" alt="" id="selar-logo-small">
+           <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/product/product.html">Product</a></li>
+            <li><a href="/preview/preview.html">Preview</a></li>
+            <li><a href="/Log in/log.html">Log in</a></li>
+            <li><a href="/sign up/sign.html">Sign up</a></li>
+            <li> <a href="/cart/cart.html"><i class="fa-solid fa-cart-plus"></i></a></li>
+           </ul>
+          </nav>
+          <h1>Free Novels at your Choices</h1>
+          <p>Free download novels at your limit</p>
+          <div id="novel-list"></div>
+          <div class="product-card">
+            <img src="product/image1.jpg" alt="Product Image" class="product-img">
+            <h3 class="title">Digital Mastery</h3>
+            <p class="author">By John Doe</p>
+        
+            <div class="btn-group">
+              <button onclick="addToCart()">Add to Cart</button>
+              <a id="preview-link" class="preview-btn">Preview</a>
+            </div>
+          </div>
+        
+    <script src="product.js"></script>
+</body>
+</html>
